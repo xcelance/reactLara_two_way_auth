@@ -1,0 +1,24 @@
+.c-sidebar-nav {
+	li {
+		a {
+			div {
+				width: 20px;
+			    height: 20px;
+			    background-size: cover;
+			    margin-right: 10px;
+			}
+		}
+	}
+	.sidebar-icon- {
+		&dashboard {
+			background-image: url('../assets/images/icon_dashboard.svg');
+		}
+	}
+	.c-active {
+		.sidebar-icon- {
+			&dashboard {
+				background-image: url('../assets/images/icon_dashboard_active.svg');
+			}
+		}
+	}
+}
